@@ -20,6 +20,7 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-between;
 }
 span {
     color:hsl(220, 13%, 13%) ;
@@ -34,7 +35,6 @@ hr {
     opacity: 0.3;
 }
 p {
-    padding-left: 2.5rem;
     color: hsl(0, 2%, 57%);
     font-weight: 500;
 }
@@ -42,14 +42,11 @@ p:hover {
     color: rgb(250, 123, 5);
     cursor: pointer;
 }
-img {
-    margin-left: 2.5rem;
+.icon-cart {
+    margin-left: 20rem;
 }
-.image {
-    padding-left: 24rem;
-    display: flex;
-    align-items: center;
-}
+
+
 
    
  
