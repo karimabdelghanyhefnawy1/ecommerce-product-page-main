@@ -22,11 +22,6 @@ body {
     align-items: center;
     justify-content: space-between;
 }
-span {
-    color:hsl(220, 13%, 13%) ;
-    font-weight: 600;
-    font-size: 2rem;
-}
 .avatar {
     width: 3vw;
 }
@@ -38,13 +33,58 @@ p {
     color: hsl(0, 2%, 57%);
     font-weight: 500;
 }
-p:hover {
-    color: rgb(250, 123, 5);
+.icon:hover {
+    color: hsl(29, 96%, 50%);
     cursor: pointer;
 }
 .icon-cart {
     margin-left: 20rem;
 }
+.content {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 5rem;
+}
+.image {
+    margin: 0;
+}
+.image img {
+    width: 25vw;
+    margin-left: 8rem;
+    margin-right: 7rem;
+    border-radius: 1rem;
+}
+.images img {
+    width: 5vw;
+    border-radius: 0.5rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+.images img:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+.images {
+    margin-left: 7.2rem;
+    max-width: 30%;
+}
+.paragraph {
+    margin: 0;
+}
+h1 {
+    font-size: 60px;
+    margin: 0;
+}
+.sneaker {
+    color: hsl(29, 96%, 50%);
+    font-weight: 600;
+}
+
+
+
+
+
+
 
 
 
