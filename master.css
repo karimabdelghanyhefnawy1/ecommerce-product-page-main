@@ -29,11 +29,12 @@ hr {
     margin-top: 2rem;
     opacity: 0.3;
 }
-p {
+p,
+span {
     color: hsl(0, 2%, 57%);
     font-weight: 500;
 }
-.icon:hover {
+span:hover{
     color: hsl(29, 96%, 50%);
     cursor: pointer;
 }
@@ -43,33 +44,35 @@ p {
 .content {
     display: flex;
     justify-content: flex-start;
-    margin-top: 5rem;
+    margin-top: 4rem;
 }
 .image {
     margin: 0;
 }
 .image img {
-    width: 25vw;
+    width: 29vw;
     margin-left: 8rem;
     margin-right: 7rem;
     border-radius: 1rem;
 }
-.images img {
-    width: 5vw;
+.small.images {
+    display: flex;
+    flex-direction: row;
+    margin-left: 7.2rem;
+}
+.small.images img {
+    width: 6vw;
     border-radius: 0.5rem;
-    margin-left: 1rem;
+    margin: 0;
+    margin-left: 1.25rem;
     margin-top: 1rem;
 }
-.images img:hover {
+.small.images img:hover {
     opacity: 0.5;
     cursor: pointer;
 }
-.images {
-    margin-left: 7.2rem;
-    max-width: 30%;
-}
-.paragraph {
-    margin: 0;
+p {
+    margin-right: 20rem;
 }
 h1 {
     font-size: 60px;
@@ -79,6 +82,64 @@ h1 {
     color: hsl(29, 96%, 50%);
     font-weight: 600;
 }
+.buttons {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+}
+.number {
+    background-color: #eee;
+    width: 10vw;
+    height: 6vh;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.number img {
+    margin-top: 1.25rem;
+    width: 1vw;
+    height: 1vh;
+}
+.zero {
+    color: black;
+    margin-top: 13px;
+}
+.money {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+} 
+.money span {
+    margin-left: 1rem;
+    background-color: hsl(29, 86%, 72%);
+    width: 3vw;
+    text-align: center;
+    color: rgb(228, 103, 1);
+    border-radius: 0.3rem;
+}
+h2 {
+    margin: 0;
+}
+del {
+    opacity: 0.5;
+}
+button {
+    width: 18vw;
+    height: 6vh;
+    background-color: hsl(29, 96%, 50%);
+    border: none;
+    color: hsl(0, 0%, 100%);
+    border-radius: 0.5rem;
+    text-align: center;
+    font-weight: 700;
+    margin-left: 1rem;
+}
+button img {
+    width: 2.2vw;
+    padding-right: 1rem;
+}
+
 
 
 
