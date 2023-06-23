@@ -25,6 +25,9 @@ body {
 .avatar {
     width: 3vw;
 }
+.icon-menu {
+    display: none;
+}
 hr {
     margin-top: 2rem;
     opacity: 0.3;
@@ -84,7 +87,7 @@ p {
     margin-right: 20rem;
 }
 h1 {
-    font-size: 60px;
+    font-size: 3.75rem;
     margin: 0;
 }
 .sneaker {
@@ -147,6 +150,70 @@ button {
 button img {
     width: 2.3vw;
     padding-right: 1rem;
+}
+@media screen and ( max-width: 800px) {
+    .hero {
+        padding: 0;
+    }
+    .content {
+        margin: 0;
+    }
+    .avatar {
+        width: 8vw;
+    }
+    .text {
+        margin-top: 25rem;
+        margin-left: 0.9rem;
+    }
+    h1 {
+        font-size: 3rem ;
+    }
+    p {
+        margin: 0;
+    }
+    .small {
+        display: none;
+    }
+    span {
+        display: none;
+    }
+    .sneaker,
+    .fifty,
+    .zero,
+    .icon-menu {
+        display: block;
+    } 
+    hr {
+        display: none;
+    }
+    .buttons {
+        display: flex;
+        flex-direction: column;
+    }
+    button {
+        margin: 0;
+        width: 85vw;
+    }
+    button img {
+        width: 10vw;
+    }
+    .number {
+        width: 85vw;
+        margin-bottom: 1rem;
+    }
+    .number img {
+        width: 7vw;
+    }
+    .money span {
+        width: 15vw;
+    }
+    .icon-cart {
+        margin-left: 5.625rem;
+    }
+    .image img {
+        margin: 0;
+        width: 95vw;
+    }
 }
 
 
