@@ -3,6 +3,9 @@
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
+:root {
+    --maincolor:hsl(29, 96%, 50%);
+}
 body {
     font-family: 'Kumbh Sans', sans-serif;
     font-family: 'League Spartan', sans-serif;
@@ -38,7 +41,7 @@ span {
     font-weight: 500;
 }
 span:hover{
-    color: hsl(29, 96%, 50%);
+    color: var(--maincolor);
     cursor: pointer;
 }
 .icon-cart {
@@ -91,7 +94,7 @@ h1 {
     margin: 0;
 }
 .sneaker {
-    color: hsl(29, 96%, 50%);
+    color: var(--maincolor);
     font-weight: 600;
 }
 .buttons {
@@ -139,7 +142,7 @@ del {
 button {
     width: 18vw;
     height: 6vh;
-    background-color: hsl(29, 96%, 50%);
+    background-color: var(--maincolor);
     border: none;
     color: hsl(0, 0%, 100%);
     border-radius: 0.5rem;
