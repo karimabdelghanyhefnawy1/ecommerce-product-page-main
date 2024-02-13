@@ -31,6 +31,9 @@ body {
 .icon-menu {
     display: none;
 }
+.icon-menu2 {
+    display: none;
+}
 hr {
     margin-top: 2rem;
     opacity: 0.3;
@@ -46,6 +49,32 @@ span:hover{
 }
 .icon-cart {
     margin-left: 20rem;
+}
+ul {
+    list-style: none;
+    margin-left: 1rem;
+    padding: 0.5rem;
+    background-color: hsl(0, 0%, 87%);
+    position: absolute;
+    left: 0;
+    min-width: 12.5rem;
+    top: 3rem;
+    display: none;
+    z-index: 1;
+}
+
+ul li a {
+    display: block;
+    padding: 0.9375rem;
+    text-decoration: none;
+    color: hsl(0, 0%, 20%);
+    transition: 0.3s;
+}
+ul li a:hover {
+    padding-left: 1.5625rem;
+}
+ul li:not(:last-child) a {
+    border-bottom: 0.0625rem solid hsl(29, 96%, 50%);
 }
 .content {
     display: flex;
@@ -249,7 +278,7 @@ button img {
     .sneaker,
     .fifty,
     .zero,
-    .icon-menu {
+    .icon-menu{
         display: block;
     } 
     .sneaker {
